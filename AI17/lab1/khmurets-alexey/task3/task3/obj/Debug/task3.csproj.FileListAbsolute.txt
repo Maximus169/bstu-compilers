@@ -1,0 +1,8 @@
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.exe.config
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.pdb
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.AssemblyReference.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.SuggestedBindingRedirects.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.pdb
