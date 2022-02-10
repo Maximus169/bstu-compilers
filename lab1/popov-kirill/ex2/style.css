@@ -1,0 +1,17 @@
+body {
+   position: relative;
+}
+input {
+   display: block;
+   width: 130px;
+}
+.yes {
+   position: absolute;
+   top: 150px;
+   left: 170px;
+}
+.container {
+   width: 700px;
+   height: 394px;
+   background: url("pic.jfif") center center / cover no-repeat;
+}

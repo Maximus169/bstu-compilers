@@ -1,0 +1,17 @@
+*Ooh*
+
+`With your feet on the air and your head on the ground`
+
+~~Try this trick and spin it yeah~~
+
+- Your head will collapse
+
+- But there's nothing in it
+
+# And you'll ask yourself
+
+## Where is my mind?
+
+### Where is my mind?
+
+da

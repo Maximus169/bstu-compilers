@@ -1,0 +1,16 @@
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).exe
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).deps.json
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).runtimeconfig.json
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).runtimeconfig.dev.json
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ref\ex1(studio).dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\bin\Debug\net5.0\ex1(studio).pdb
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).csproj.AssemblyReference.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).AssemblyInfoInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).AssemblyInfo.cs
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).csproj.CoreCompileInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ref\ex1(studio).dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).pdb
+C:\WorkPlace\University-3-6\labs\LPIS\lab1_md\ex1(studio)\ex1(studio)\obj\Debug\net5.0\ex1(studio).genruntimeconfig.cache
