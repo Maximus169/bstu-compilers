@@ -12,5 +12,5 @@ function myClick() {
    if (validateEmail(email))
       alert('success');
    else
-      alert('not success');
+      alert('not successful');
 }

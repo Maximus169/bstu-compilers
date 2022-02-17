@@ -7,39 +7,43 @@ using System.Threading.Tasks;
 
 namespace ex3_studio_
 {
+
     class Change
     {
         private string mdText;
 
-        public Change(ref string text)
+        public Change(string text)
         {
             mdText = text;
         }
 
         public string StartConverting()
         {
+            
             Tags tags = new Tags();
-            Regex reg = new Regex(@"\n");
-            mdText = reg.Replace(mdText, delegate (Match m)
+
+            Regex reg = new Regex(@"((#){1,6} )*( (#){1,6})*(\*\b\w)*(\w\b\*)*(\w\b~~)*(~~\b\w)*(`\b\w)*(\w\b`)*(\* )*(>.+\n)*", RegexOptions.Multiline);
+            mdText = reg.Replace(mdText, m =>
             {
-                return m.Value + $"<br> ";
+                if (tags.Contains(m.Value))
+                    return tags.getTag(m.Value);
+                else
+                    return m.Value;
             });
-            mdText = mdText.Replace(Environment.NewLine, "");
 
-            for (int i = 0; i < tags.Count; i++)
+            reg = new Regex(@"$", RegexOptions.Multiline);
+            mdText = reg.Replace(mdText, m =>
             {
-                reg = new Regex(tags.Pattern(i));
-                mdText = reg.Replace(mdText, delegate (Match m)
+                return m.Value + $"<br>";
+            });
+
+            return Regex.Replace(mdText, @"<\/h[1-6]>.<br>", m =>
+            {
+                return Regex.Replace(m.Value, @"<br>", m =>
                 {
-                    Regex regex = new Regex(tags.MDTag(i)); 
-                    string temp = regex.Replace(m.Value, String.Empty); 
-                    return $"<{tags.HTMLTag(i)}>" + temp + $"</{tags.HTMLTag(i)}>"; 
+                    return "";
                 });
-            }
-
-
-            Console.WriteLine(Environment.NewLine + mdText);
-            return mdText;
+            });
         }
     }
 }

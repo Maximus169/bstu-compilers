@@ -7,11 +7,37 @@ input {
 }
 .yes {
    position: absolute;
-   top: 150px;
-   left: 170px;
+   top: 50px;
+   left: 155px;
 }
+.email {
+   display: block;
+   height: 278px;
+   width: 156px;
+   transform: skew(-175deg, 175deg);
+   padding: 0;
+}
+
+.submit {
+   display: block;
+   position: absolute;
+   border-radius: 100%;
+   border-color: #b19a1a;
+   height: 35px;
+   width: 35px;
+   top: 289px;
+   left: 77px;
+}
+
 .container {
+   position: relative;
    width: 700px;
    height: 394px;
    background: url("pic.jfif") center center / cover no-repeat;
+   margin: 0 auto;
+}
+
+.subtitle {
+   text-align: center;
+   font-size: 30px;
 }

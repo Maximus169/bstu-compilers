@@ -21,9 +21,12 @@ namespace ex1_studio_
         }
         static void Main(string[] args)
         {
-            Console.Write("Enter your string: ");
-             
-            Console.WriteLine("\nRight version: " + deleteDpl(Console.ReadLine()));
+            while (true)
+            {
+                Console.Write("Enter your string: ");
+
+                Console.WriteLine("\nRight version: " + deleteDpl(Console.ReadLine()));
+            }
         }
     }
 }
