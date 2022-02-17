@@ -46,7 +46,8 @@
     <Compile Include="FormatText.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tags.cs" />
+    <Compile Include="TagsBuilder.cs" />
+    <Compile Include="Tag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

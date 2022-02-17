@@ -1,5 +1,5 @@
 function func() {
-    var reg = /^([a-zA-Z0-9]{5,})+\@([a-z]{3,})+\.([a-z]{2,3})$/;
+    var reg = /^([a-zA-Z0-9]{1,})+\@([a-z]{3,})+\.([a-z]{2,3})$/;
     var str = document.getElementById('text-field-input').value;
     
     if(reg.test(str)){

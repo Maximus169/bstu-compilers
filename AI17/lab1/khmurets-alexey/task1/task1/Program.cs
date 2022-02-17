@@ -6,7 +6,7 @@ namespace task1
 {
     internal class Program
     {
-        static string writePath = @"D:\studying\3 course\6sem\YaPIS\lab1\task1\new_text.md";
+        static string writePath = @"..\..\..\new_text.md";
 
         static void Main(string[] args)
         {

@@ -9,7 +9,7 @@ namespace task3
 {
     internal class Program
     {
-        static string path = @"D:\studying\3 course\6sem\YaPIS\lab1\task3\";
+        static string path = @"..\..\..\";
 
         static void Main(string[] args)
         {
