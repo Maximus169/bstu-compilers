@@ -33,35 +33,40 @@ with open('ex.html', 'w') as fres:
     fres.write('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"></head><body>')
 
     with open('example.md', 'r') as fp:
+
         changing = {
-            '>': [change_single_repeat_tag, ['<blockquote>', '</blockquote>']],
-            '\*\*\*': [change_double_tag, ['<em><strong>', '</strong></em>']],
-            '\*\*': [change_double_tag, ['<strong>', '</strong>']],
-            '\*': [change_double_tag, ['<em>', '</em>']],
-            '___': [change_double_tag, ['<em><strong>', '</strong></em>']],
-            '__': [change_double_tag, ['<strong>', '</strong>']],
-            '_': [change_double_tag, ['<em>', '</em>']],
-            '~~': [change_double_tag, ['<strike>', '</strike>']],
-            '######': [change_single_tag, ['<h6>', '</h6>']],
-            '#####': [change_single_tag, ['<h5>', '</h5>']],
-            '####': [change_single_tag, ['<h4>', '</h4>']],
-            '###': [change_single_tag, ['<h3>', '</h3>']],
-            '##': [change_single_tag, ['<h2>', '</h2>']],
-            '#': [change_single_tag, ['<h1>', '</h1>']],
-            '```': [change_double_tag, ['<code>', '</code>']],
-            '``': [change_double_tag, ['<code>', '</code>']],
-            '`': [change_double_tag, ['<code>', '</code>']],
-            '\-': [change_single_tag, ['<li>', '</li>']],
-            '\+': [change_single_tag, ['<li>', '</li>']],
+            '>': {'function': change_single_repeat_tag, 'tags': ['<blockquote>', '</blockquote>']},
+            '\*\*\*': {'function': change_double_tag, 'tags': ['<em><strong>', '</strong></em>']},
+            '\*\*': {'function': change_double_tag, 'tags': ['<strong>', '</strong>']},
+            '\*': {'function':change_double_tag, 'tags': ['<em>', '</em>']},
+            '___': {'function':change_double_tag, 'tags': ['<em><strong>', '</strong></em>']},
+            '__': {'function':change_double_tag, 'tags': ['<strong>', '</strong>']},
+            '_': {'function':change_double_tag, 'tags': ['<em>', '</em>']},
+            '~~': {'function':change_double_tag, 'tags': ['<strike>', '</strike>']},
+            '######': {'function':change_single_tag, 'tags': ['<h6>', '</h6>']},
+            '#####': {'function':change_single_tag, 'tags': ['<h5>', '</h5>']},
+            '####': {'function':change_single_tag, 'tags': ['<h4>', '</h4>']},
+            '###': {'function':change_single_tag, 'tags': ['<h3>', '</h3>']},
+            '##': {'function':change_single_tag, 'tags': ['<h2>', '</h2>']},
+            '#': {'function':change_single_tag, 'tags': ['<h1>', '</h1>']},
+            '```': {'function':change_double_tag, 'tags': ['<code>', '</code>']},
+            '``': {'function':change_double_tag, 'tags': ['<code>', '</code>']},
+            '`': {'function':change_double_tag, 'tags': ['<code>', '</code>']},
+            '\-': {'function':change_single_tag, 'tags': ['<li>', '</li>']},
+            '\+': {'function':change_single_tag, 'tags': ['<li>', '</li>']},
         }
 
         for markdown in fp.readlines():
-            for symbols, working in changing.items():
-                markdown = working[0](
+            if markdown == '\n':
+                fres.write('<br>')
+                continue
+
+            for symbols, working_info in changing.items():
+                markdown = working_info.get('function')(
                     markdown,
                     symbols,
-                    working[1][0],
-                    working[1][1]
+                    working_info['tags'][0],
+                    working_info['tags'][1]
                 )
             fres.write(markdown)
             fres.write('<br>')
