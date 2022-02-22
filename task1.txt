@@ -1,0 +1,37 @@
+	Тип 3 (Регулярные)
+
+L(G) = {w⊥ | w∈(a,b)}
+
+1) S -> A⊥ | B⊥
+2) A -> a | Ba
+3) B -> b | Bb | Ab
+
+
+	Тип 2 (Контекстно­свободные)
+L(G) = {(ab)n(cb)n | n > 0}
+
+1) S -> aQb | accb
+2) Q -> cSc
+
+
+	Тип 1 (Контекстно­зависимые)
+L(G) = {anbncn | n>= 1}
+
+1) S -> aSBC | abc
+2) bC -> bc
+3) CB -> BC
+4) cC -> cc
+5) BB -> bb
+
+
+	Тип 0 (Неограниченные)
+L(G) = {acbn | n >= 1}
+
+1) S -> aaCFD
+2) AD -> D
+3) F -> AFB | AB
+4) Cb -> bC
+5) AB -> bBA
+6) CB -> C
+7) Ab -> bA
+8) bCD -> ε
