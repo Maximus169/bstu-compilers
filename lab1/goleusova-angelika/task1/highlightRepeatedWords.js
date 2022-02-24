@@ -8,5 +8,10 @@ function highlightRepeatedWords(str) {
   return result;
 }
 
-console.log(highlightRepeatedWords('This sentence contains repetitions.' +
-  ' That is, it contains exactly only repetitions.'));
+let args = process.argv.slice(2);
+
+if (args[0]) {
+  console.log(highlightRepeatedWords(args[0]));
+} else {
+  console.error("Не передан входной аргумент!");
+}

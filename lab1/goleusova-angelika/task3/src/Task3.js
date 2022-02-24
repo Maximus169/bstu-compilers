@@ -1,21 +1,5 @@
-import {Button, TextField} from "@mui/material";
-import {useEffect, useState} from "react";
-
-const defaultValue = `
-Это обычный текст
-**Этот текст будет жирным**
-Этот текст содержит кусок \`function(12);\` кода
-~~Этот текст будет зачеркнутым~~
-*Это 1ый элемент списка
-*Это 2ой элемент списка
-# Это самый крупный заголовок
-## Заголовок 2
-### Заголовок 3
-#### Заголовок 4
-##### Заголовок 5
-###### Заголовок 6
-> Это мудрая цитата
-`;
+import {Button, CircularProgress, Input} from "@mui/material";
+import {useState} from "react";
 
 const rules = [
   {exp: />(.*)/g, replaceOn: `<blockquote>$1</blockquote>`},
@@ -35,45 +19,47 @@ function Task3() {
 
   const [value, setValue] = useState('');
   const [result, setResult] = useState('');
-
-  useEffect(() => {
-    setValue(defaultValue);
-  }, []);
-
-  const onChange = (e) => {
-    setValue(e.target.value);
-  }
+  const [loading, setLoading] = useState(false);
 
   const transform = () => {
     let res = value;
     for (let rule of rules) {
       res = res.replaceAll(rule.exp, rule.replaceOn);
     }
-
     setResult(res);
   }
 
+  const handleFile = (event) => {
+    if (event.target.files[0]) {
+      setLoading(true);
+      let reader = new FileReader();
+      reader.onload = (e) => {
+        setValue(String(e.target.result));
+        setLoading(false);
+      };
+      reader.readAsText(event.target.files[0]);
+    }
+  }
+
   return (
-    <div style={{width: '50%'}}>
-      <h2>Введите Markdown текст:</h2>
-      <TextField
-        id="standard-basic"
-        multiline
-        onChange={onChange}
-        label="Text"
-        defaultValue={defaultValue}
-        variant="standard"
-        style={{width: '90%'}}
+    <div style={{width: '100%'}}>
+      <h1>Трансформация из Markdown файла в HTML страницу</h1>
+      {loading && <CircularProgress/>}
+      <Input
+        onChange={handleFile}
+        variant="outlined"
+        type='file'
       />
       <br/>
       <br/>
       <Button
         onClick={transform}
         variant="outlined">
-        Transform
+        Трансформировать
       </Button>
-      <p>Result:</p>
-      <div>{result.split('\n').map((item, index) => (<p key={index}>{item}</p>))}</div>
+      <h1>Результат:</h1>
+      <div>{result.split('\n').map((item, index) =>
+        (<p key={index} dangerouslySetInnerHTML={{__html: item}} />))}</div>
     </div>
   );
 }
