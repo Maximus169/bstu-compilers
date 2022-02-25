@@ -17,7 +17,7 @@ namespace ex3_studio_
                 byte[] array = new byte[fstream.Length];
                 fstream.Read(array, 0, array.Length);
                 text = System.Text.Encoding.Default.GetString(array);
-                //Console.WriteLine($"Текст из файла: {text}");
+                Console.WriteLine($"Текст из файла: {text}");
             }
 
             Change ch = new Change(text);
