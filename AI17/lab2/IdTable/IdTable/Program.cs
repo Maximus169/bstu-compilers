@@ -2,7 +2,8 @@
 using System.Security.Cryptography;
 
 IDFile iDFile = new IDFile();
-string path = @"ids.txt";
+//string path = @"ids.txt";
+string path = @"overIds.txt";
 
 //идентификаторы
 string[] ids = iDFile.getString(path);
@@ -29,6 +30,11 @@ uint hFunc(string id)
     return id[0] % hTableSize;
 }
 
+void feel(ID hTable, ID idTable)
+{
+    hTable.putID(idTable);
+}
+
 int collCount = 0;
 
 //заполнение таблиц
@@ -53,7 +59,10 @@ foreach (var item in ids)
             Console.WriteLine($"!(ACHTUNG)! == WARNING! id repeat == !(!ACHTUNG!)!\n{hTable[index].Name} == {idTable[index].Name}");
             continue;
         }
-        hTable[index].putID(idTable[freePtr]);
+        Thread tr = new Thread(() => feel(hTable[index], idTable[freePtr]), 10000000);
+        tr.Start();
+        tr.Join();
+        //hTable[index].putID(idTable[freePtr]);
         idTable.Add(new ID());
         freePtr++;
         collCount++;

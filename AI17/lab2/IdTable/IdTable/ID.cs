@@ -26,7 +26,7 @@ namespace IdTable
             if (this.nextID == null)
             {
                 this.nextID = nextID;
-                //this.nextID.info = "";
+                this.nextID.info = "";
             }
             else
             {
