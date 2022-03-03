@@ -8,6 +8,9 @@ namespace IdTable
 {
     internal class ID
     {
+        public static bool check;
+        private static uint counter;
+        private const uint MAX_COUNT = 9999;
         private string name;
         public string Name
         {
@@ -21,16 +24,29 @@ namespace IdTable
             set { info = value; }
         }
         private ID nextID;
-        public void putID(ID nextID)
+        public ID putID(ID nextID)
         {
             if (this.nextID == null)
             {
                 this.nextID = nextID;
                 this.nextID.info = "";
+                check = true;
+                counter = 0;
+                return nextID;
             }
             else
             {
-                this.nextID.putID(nextID);
+                if (counter == MAX_COUNT)
+                {
+                    counter = 0;
+                    return this.nextID;
+                }
+                else
+                {
+                    counter++;
+                    check = false;
+                    return this.nextID.putID(nextID);
+                }
             }
         }
         public ref ID getID()

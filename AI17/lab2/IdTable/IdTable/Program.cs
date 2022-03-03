@@ -2,7 +2,11 @@
 using System.Security.Cryptography;
 
 IDFile iDFile = new IDFile();
+
+//the file for standesrt working
 //string path = @"ids.txt";
+
+//the file to raise a stack overflow exception
 string path = @"overIds.txt";
 
 //идентификаторы
@@ -31,8 +35,12 @@ uint hFunc(string id)
 }
 
 void feel(ID hTable, ID idTable)
-{
-    hTable.putID(idTable);
+{    
+    ID temp = hTable.putID(idTable);
+    while (!ID.check)
+    {
+        temp = temp.putID(idTable);
+    }
 }
 
 int collCount = 0;
@@ -41,7 +49,6 @@ int collCount = 0;
 foreach (var item in ids)
 {
     int index = (int)hFunc(item);
-    //Console.WriteLine(index);
     if (hTable[index] == null)
     {
         idTable[freePtr].Name = item;
@@ -59,9 +66,15 @@ foreach (var item in ids)
             Console.WriteLine($"!(ACHTUNG)! == WARNING! id repeat == !(!ACHTUNG!)!\n{hTable[index].Name} == {idTable[index].Name}");
             continue;
         }
-        Thread tr = new Thread(() => feel(hTable[index], idTable[freePtr]), 10000000);
-        tr.Start();
-        tr.Join();
+        //version 3
+        feel(hTable[index], idTable[freePtr]);
+
+        //version 2
+        //Thread tr = new Thread(() => feel(hTable[index], idTable[freePtr]), 10000000);
+        //tr.Start();
+        //tr.Join();
+
+        //version 1
         //hTable[index].putID(idTable[freePtr]);
         idTable.Add(new ID());
         freePtr++;
@@ -82,25 +95,43 @@ void findID(ID[] ht, string id)
     }
     else
     {
-        recFindID(ht[index], id);
+        ID temp = recFindID(ht[index], id);
+        while (temp != null)
+        {
+            temp = recFindID(temp, id);
+        }
     }
 }
 
-void recFindID(ID ht, string id)
+const uint MAX_COUNT = 5999;
+uint counter = 0;
+
+ID recFindID(ID ht, string id)
 {
     if (ht == null)
     {
         Console.WriteLine("Not found!");
-        return;
+        counter = 0;
+        return null;
     }
     else if (ht.Name == id)
     {
         Console.WriteLine($"Was found!:\nName: {ht.Name}\nInfo: {ht.Info}");
-        return;
+        counter = 0;
+        return null;
     }
     else
     {
-        recFindID(ht.getID(), id);
+        if (counter == MAX_COUNT)
+        {
+            counter = 0;
+            return ht.getID();
+        }
+        else
+        {
+            counter++;
+            return recFindID(ht.getID(), id);
+        }
     }
 }
 
