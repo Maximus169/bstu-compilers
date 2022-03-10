@@ -1,0 +1,52 @@
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\appsettings.Development.json
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\appsettings.json
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.staticwebassets.runtime.json
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.exe
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.deps.json
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.runtimeconfig.json
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.dll
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ref\ЯПИС 1лаб 2.dll
+D:\prog\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.pdb
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.csproj.AssemblyReference.cache
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.AssemblyInfoInputs.cache
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.AssemblyInfo.cs
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.csproj.CoreCompileInputs.cache
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.MvcApplicationPartsAssemblyInfo.cache
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.RazorAssemblyInfo.cache
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.RazorAssemblyInfo.cs
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\staticwebassets.build.json
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\staticwebassets.development.json
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\bundle\ЯПИС 1лаб 2.styles.css
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\projectbundle\ЯПИС 1лаб 2.bundle.scp.css
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.dll
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ref\ЯПИС 1лаб 2.dll
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.pdb
+D:\prog\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.genruntimeconfig.cache
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\appsettings.Development.json
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\appsettings.json
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.staticwebassets.runtime.json
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.exe
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.deps.json
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.runtimeconfig.json
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.dll
+D:\prog\Labs\ЯПИС 1лаб 2\bin\Debug\net6.0\ЯПИС 1лаб 2.pdb
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.csproj.AssemblyReference.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.AssemblyInfoInputs.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.AssemblyInfo.cs
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.csproj.CoreCompileInputs.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.MvcApplicationPartsAssemblyInfo.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.RazorAssemblyInfo.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.RazorAssemblyInfo.cs
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\staticwebassets.build.json
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\staticwebassets.development.json
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\bundle\ЯПИС 1лаб 2.styles.css
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\scopedcss\projectbundle\ЯПИС 1лаб 2.bundle.scp.css
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.dll
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\refint\ЯПИС 1лаб 2.dll
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.pdb
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ЯПИС 1лаб 2.genruntimeconfig.cache
+D:\prog\Labs\ЯПИС 1лаб 2\obj\Debug\net6.0\ref\ЯПИС 1лаб 2.dll
