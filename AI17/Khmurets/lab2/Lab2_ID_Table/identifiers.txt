@@ -1,0 +1,9 @@
+int integer-value
+uint unsigned-integer-value
+long long-integer-value
+ulong unsigned-long-integer-value
+double floating-point-number
+decimal decimal-fractional-number
+short short-integer-value
+ushort unsigned-short-integer-value
+string unicode-character-set
