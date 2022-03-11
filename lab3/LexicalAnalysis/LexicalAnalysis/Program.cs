@@ -6,6 +6,7 @@ string path = "code.txt";
 using (StreamReader reader = new StreamReader(path))
 {
     text = await reader.ReadToEndAsync();
+    Console.WriteLine("> Text of code:");
     Console.WriteLine(text);
 }
 List<string> words = new List<string>(text.Split());
@@ -23,8 +24,7 @@ Regex r = new Regex(@"\b\d+\b");
 int idKW = 1, idID = 0;
 foreach (var item in words)
 {
-    Match m = r.Match(item);
-    if (item == "if" || item == "else" || item == "then")
+    if (item == "if" || item == "else" || item == "then" || item == ";")
     {
         table.Add(new LexicalTable(item, "Ключевое слово", $"X{idKW}"));
         idKW++;
@@ -41,7 +41,7 @@ foreach (var item in words)
     {
         table.Add(new LexicalTable(item, "Знак логической операции", " "));
     }
-    else if (m.Success)
+    else if ((r.Match(item)).Success)
     {
         table.Add(new LexicalTable(item, "Целочисленная константа", item));
     }
@@ -69,19 +69,23 @@ foreach (var item in words)
 }
 
 //Проверка введенного кода
-r = new Regex(@"if\s+\w+\s+\w+\s+\w+\s+then[$\s+]*(\w+\s+:=\s+\w+(\s+\S\s+\w+)*[$\s+]*)+(else[$\s+]*\w+\s:=\s\w+(\s+\S\s+\w+)*[$\s+]*)*");
+r = new Regex(@"if\s+\w+\s+\w+\s+\w+\s+then[$\s+]*(\w+\s+:=\s+\w+(\s+\S\s+\w+)*[$\s+]*)+(else[$\s+]*(\w+\s:=\s\w+(\s+\S\s+\w+)*[$\s+]*)+)*;");
 Match mat = r.Match(text);
 
 if (!mat.Success)
 {
-    Console.WriteLine("Error: incorrect structure");
+    Console.WriteLine("\n> Error: incorrect structure");
 }
 else
 {
-    Console.WriteLine("Code is right");
+    Console.WriteLine("\n> Code is right");
 }
 
-
+Console.WriteLine("\n> the table:\nLexeme\tType\t\t\tValue");
+foreach (var item in table)
+{
+    Console.WriteLine($"{item.lexeme}\t{item.lexemeType}\t\t{item.value}");
+}
 
 Console.ReadLine();
 
