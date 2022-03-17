@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>2nd task</title>
+ </head>
+ <body>
+  <script>
+    function emailValidator() {
+    var email = document.getElementById("email").value
+    var response_field = document.getElementById("response")
+
+    if (!email.match("^[a-zA-Z0-9-_]+@[a-zA-Z0-9]+\.[a-z]{1,3}$")){
+     response_field.innerHTML = "Invalid email!"
+    }
+    else {
+     response_field.innerHTML = ""
+    }
+    }
+  </script>
+ <input type="text" id="email">
+ <button onclick="emailValidator()">Submit</button>
+ <p id="response" style="color: red"></p>
+ </body>
+</html>
+
+
+
