@@ -1,0 +1,11 @@
+one = X * ( I + VI );
+two = X / I;
+three = XVII - XV;
+
+x = XVI;
+var = X - XII;
+var = XXX;
+IV * VII;
+ident = X * X;
+
+    ident = X * III;        II + I;
