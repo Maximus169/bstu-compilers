@@ -37,10 +37,15 @@ const srcTable = [
   },
 ];
 
+const comparator = (firstItem, secondItem) => {
+  if (firstItem.id > secondItem.id) return 1;
+  if (secondItem.id > firstItem.id) return -1;
+  return 0;
+}
+
 const sortedTable = [...srcTable];
 
-sortedTable.sort((a, b) =>
-  (a.id > b.id) ? 1 : ((b.id > a.id) ? -1 : 0));
+sortedTable.sort(comparator);
 
 let sumOfIterations = 0;
 for (let item of srcTable) {
