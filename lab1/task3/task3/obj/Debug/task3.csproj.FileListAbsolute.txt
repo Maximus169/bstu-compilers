@@ -1,0 +1,24 @@
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.exe.config
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\bin\Debug\task3.pdb
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.AssemblyReference.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.SuggestedBindingRedirects.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task3\task3\obj\Debug\task3.pdb
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\bin\Debug\task3.exe.config
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\bin\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\bin\Debug\task3.pdb
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\obj\Debug\task3.csproj.AssemblyReference.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\obj\Debug\task3.csproj.SuggestedBindingRedirects.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\obj\Debug\task3.exe
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task3\task3\obj\Debug\task3.pdb
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\bin\Debug\task3.exe.config
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\bin\Debug\task3.exe
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\bin\Debug\task3.pdb
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\obj\Debug\task3.csproj.AssemblyReference.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\obj\Debug\task3.csproj.SuggestedBindingRedirects.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\obj\Debug\task3.csproj.CoreCompileInputs.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\obj\Debug\task3.exe
+D:\Уник\3 курс\2 семестр\ЯПИС\lab1\task3\task3\obj\Debug\task3.pdb

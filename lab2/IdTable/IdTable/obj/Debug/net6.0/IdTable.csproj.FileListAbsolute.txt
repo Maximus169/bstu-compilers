@@ -1,0 +1,45 @@
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.exe
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.deps.json
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.runtimeconfig.json
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.pdb
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.AssemblyReference.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfoInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfo.cs
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.CoreCompileInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\refint\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.pdb
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.genruntimeconfig.cache
+C:\WorkPlace\University-3-6\labs\LPIS\lab2\IdTable\IdTable\obj\Debug\net6.0\ref\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.exe
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.deps.json
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.runtimeconfig.json
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.pdb
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.AssemblyReference.cache
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfoInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfo.cs
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.CoreCompileInputs.cache
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\refint\IdTable.dll
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.pdb
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.genruntimeconfig.cache
+C:\WorkPlace\University-3-6\labs\LPIS\bstu-compilers\AI17\lab2\IdTable\IdTable\obj\Debug\net6.0\ref\IdTable.dll
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.AssemblyReference.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.GeneratedMSBuildEditorConfig.editorconfig
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfoInputs.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.AssemblyInfo.cs
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.csproj.CoreCompileInputs.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.dll
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\refint\IdTable.dll
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.pdb
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.exe
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.deps.json
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.runtimeconfig.json
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.dll
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\bin\Debug\net6.0\IdTable.pdb
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\IdTable.genruntimeconfig.cache
+D:\Уник\3 курс\2 семестр\ЯПИС\lab2\IdTable\IdTable\obj\Debug\net6.0\ref\IdTable.dll

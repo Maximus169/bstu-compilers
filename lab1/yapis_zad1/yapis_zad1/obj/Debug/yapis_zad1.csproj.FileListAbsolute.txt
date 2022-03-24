@@ -1,0 +1,8 @@
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\bin\Debug\yapis_zad1.exe.config
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\bin\Debug\yapis_zad1.exe
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\bin\Debug\yapis_zad1.pdb
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\obj\Debug\yapis_zad1.csproj.AssemblyReference.cache
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\obj\Debug\yapis_zad1.csproj.SuggestedBindingRedirects.cache
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\obj\Debug\yapis_zad1.csproj.CoreCompileInputs.cache
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\obj\Debug\yapis_zad1.exe
+D:\Всякое govno\Visual\projects\yapis_zad1\yapis_zad1\obj\Debug\yapis_zad1.pdb
