@@ -1,0 +1,2 @@
+some_func(ident, "text", 'a');program("string");
+func();
