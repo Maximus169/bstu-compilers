@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Page Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		#function {
+			margin: 0 auto;
+			width: 400px;
+		}
+
+		#loop {
+			margin: 0 auto;
+			width: 400px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="loop">
+		Быть преобразованным
+	</div>
+	<div id="function">
+		<input type="file" id="file" onchange="fileChange()">
+		<a href="" download="test.html">загрузить файл</a>
+	</div>
+	<script>
+		let rules = [
+			{ rule: />(.*)/gim, replace: '<blockquote>$1</blockquote>' },
+			{ rule: /^### (.*$)/gim, replace: '<h3>$1</h3>' },
+			{ rule: /^## (.*$)/gim, replace: '<h2>$1</h2>' },
+			{ rule: /^# (.*$)/gim, replace: '<h1>$1</h1>' },
+			{ rule: /^#### (.*$)/gim, replace: '<h4>$1</h4>' },
+			{ rule: /^##### (.*$)/gim, replace: '<h5>$1</h5>' },
+			{ rule: /^###### (.*$)/gim, replace: '<h6>$1</h6>' },
+			{ rule: /\_\_(.*)\_\_/gim, replace: '<b>$1</b>' },
+			{ rule: /\+(.*)/gim, replace: '<li>$1</li>' },
+			{ rule: /~~(.*)~~/gim, replace: '<s>$1</s>' },
+			//{rule: /`(.*)`/gim, replace: '<code>$1</code>'},
+		]
+		function fileChange() {
+			let oMyFiles = document.getElementById("file");
+			let oMyFile = oMyFiles.files;// Получаем загруженный файловый массив
+
+			//console.log(oMyFile.name)
+			let oFileReader = new FileReader();// Создание экземпляра читателя
+			oFileReader.readAsText(oMyFile[0]);
+			oFileReader.onload = function () {
+				translate(this.result);// Выполняем преобразование
+			}
+		}
+		function translate(file) {
+			let trans1 = file.replace(/\!(\[.*\])\((.+)\)/g, "<img src=\"" + "$2" + "\" />");// Конвертируем картинку
+			let trans2 = trans1.replace(/\[(.*)\]\((.+)\)/g, "<a href=\"" + "$2" + " \" >" + "$1" + "<a />") // Преобразование гиперссылки
+			for (let i = 0; i < rules.length; i++) {
+				trans2 = trans2.replaceAll(rules[i].rule, rules[i].replace)
+			}
+			let blob = new Blob([trans2], { type: "text/plain;charest:utf-8" });// Создание экземпляра капли
+			let oDowmload = document.getElementsByTagName("a")[0];
+			oDowmload.setAttribute("href", window.URL.createObjectURL(blob));// Создаем временный URL для загрузки
+			let oMark = document.getElementById("mark");
+			oMark.innerHTML = "Преобразование завершено, нажмите, чтобы загрузить";
+		}
+
+
+	</script>
+</body>
+
+</html>

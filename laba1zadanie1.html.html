@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		var re = /(\b\w+\b)(?=.*\b\1\b)/gi;
+		var str = 'where is mummy where is daddy';
+		var patts = str.match(re);
+		patts.forEach((index) => {
+			let newIndex = str.lastIndexOf(index)
+			str = str.replace(str.substring(0, newIndex) + index + str.substring(newIndex + index.length), str.substring(0, newIndex) + `**${index}**` + str.substring(newIndex + index.length))
+		})
+		console.log(str)
+        //new RegExp("\\b" + index + "\\b", "g")
+	</script>
+</body>
+
+</html>
