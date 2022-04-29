@@ -19,7 +19,7 @@ def is_id(line):
 
 def is_symbol_const(line):
     return {
-        'result': not re.fullmatch(r'[0-9]*[.,][0-9]', line) is None,
+        'result': not re.fullmatch(r'-?\d*\.\d+', line) is None,
         'name': 'Десятичные числа с плавающей точкой',
         'priority': 1,
         'data': line
@@ -28,16 +28,16 @@ def is_symbol_const(line):
 
 def is_string_const(line):
     return {
-        'result': not re.fullmatch(r'[0-9]*[0-9]', line) is None,
+        'result': not re.fullmatch(r'(0|[1-9]\d*)?(\.\d+)?(?<=\d)', line) is None,
         'name': 'Целые десятичные числа без знака',
         'priority': 4,
         'data': line,
     }
 def is_symb_const(line):
     return {
-        'result': not re.fullmatch(r"[--]+[0-9a-fA-F]+[--]?", line) is None,
+        'result': not re.fullmatch(r'"[-]?[0-9a-fA-F]+[-]?"', line) is None,
         'name': 'Шеснадцатеричные числа',
-        'priority': 4,
+        'priority': 5,
         'data': line,
     }
 
