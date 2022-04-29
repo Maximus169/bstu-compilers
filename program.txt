@@ -1,0 +1,2 @@
+a:array [0..100] of integer;arr_index : array [0..100] of words;
+some_array : array[0..255]of byte;
