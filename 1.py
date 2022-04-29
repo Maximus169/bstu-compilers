@@ -1,6 +1,6 @@
 import re
 
-str = input('Type string:\n')
+str = input('String:\n')
 
 nwords = set([word.lower() for word in re.findall(r'(\w+)', str)])
 str = re.sub(r'(\w+)', r'**\1**', str)
