@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		list = [
+			'help',
+			'meEe',
+			'please',
+			'some',
+			'words',
+			'for',
+			'fucking',
+			'inserting',
+			'int',
+			'char',
+			'table',
+			'one',
+			'two',
+			'three',
+			'four',
+			'five',
+			'hello',
+		]
+		function HashTable(size = 13) {
+			const _store = []
+			const _size = size
+
+			function hash(string) {
+				let index = 0
+				for (let i = 0; i <= 2; i++) {
+					index += string.charCodeAt(i)
+				}
+				return index % size
+			}
+
+			return {
+				setElement(key) {
+					for (let o = 0; o < key.length; o++) {
+						const index = hash(key[o])
+						if (!_store[index]) {
+							_store[index] = [key[o]]
+						}
+						else {
+							_store[index].push(key[o])
+						}
+
+					}
+				},
+				getElement(key) {
+					const index = hash(key)
+					if (_store[index]) {
+						for (let p = 0; p < _store[index].length; p++) {
+							if (key === _store[index][p]) {
+								console.log(true)
+							}
+							else {
+								console.log(false)
+							}
+						}
+					}
+				},
+				dump() {
+					return _store
+				},
+
+			}
+		}
+
+		const ht = new HashTable()
+		ht.setElement(list)
+		ht.getElement('int')
+		console.log(ht.dump())
+	</script>
+</body>
+
+</html>
