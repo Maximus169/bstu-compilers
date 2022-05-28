@@ -1,0 +1,16 @@
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\bin\Debug\task1.exe.config
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\bin\Debug\task1.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\bin\Debug\task1.pdb
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\obj\Debug\task1.csproj.AssemblyReference.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\obj\Debug\task1.csproj.SuggestedBindingRedirects.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\obj\Debug\task1.exe
+D:\studying\3 course\6sem\YaPIS\lab1\task1\task1\obj\Debug\task1.pdb
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\bin\Debug\task1.exe.config
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\bin\Debug\task1.exe
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\bin\Debug\task1.pdb
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\obj\Debug\task1.csproj.AssemblyReference.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\obj\Debug\task1.csproj.SuggestedBindingRedirects.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\obj\Debug\task1.exe
+D:\studying\3 course\6sem\YaPIS\bstu-compilers\AI17\lab1\khmurets-alexey\task1\task1\obj\Debug\task1.pdb
