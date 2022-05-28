@@ -1,0 +1,15 @@
+D:\studying\zakaz\yapis_2\yapis_2\bin\Debug\yapis_2.exe.config
+D:\studying\zakaz\yapis_2\yapis_2\bin\Debug\yapis_2.exe
+D:\studying\zakaz\yapis_2\yapis_2\bin\Debug\yapis_2.pdb
+D:\studying\zakaz\yapis_2\yapis_2\obj\Debug\yapis_2.csproj.AssemblyReference.cache
+D:\studying\zakaz\yapis_2\yapis_2\obj\Debug\yapis_2.csproj.SuggestedBindingRedirects.cache
+D:\studying\zakaz\yapis_2\yapis_2\obj\Debug\yapis_2.csproj.CoreCompileInputs.cache
+D:\studying\zakaz\yapis_2\yapis_2\obj\Debug\yapis_2.exe
+D:\studying\zakaz\yapis_2\yapis_2\obj\Debug\yapis_2.pdb
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\bin\Debug\yapis_2.exe.config
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\bin\Debug\yapis_2.exe
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\bin\Debug\yapis_2.pdb
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\obj\Debug\yapis_2.csproj.AssemblyReference.cache
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\obj\Debug\yapis_2.csproj.CoreCompileInputs.cache
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\obj\Debug\yapis_2.exe
+C:\Users\mydra\OneDrive\Рабочий стол\yapis_2\yapis_2\obj\Debug\yapis_2.pdb
