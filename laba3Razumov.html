@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script>
+		let code = `fun(ident, 1001.0011);program(359745A21)`
+		let lex = function (input) {
+			let tokens = []
+			let patternIdent = /^[_a-zA-Z]\w*$/
+			let patternSymbolConst = /^[0-9]*[.,][0-9]+$/
+			let patternSymCos = /[-]?[0-9a-fA-F]+[-]?/
+			let patternStringConst = /(0|[1-9]\d*)?(\.\d+)?(?<=\d)/
+			let result = ''
+			let c = null
+			let i = 0
+			let keySymbols = {
+				'(': 'Знак открывающей скобки',
+				')': 'Знак закрывающей скобки',
+				',': 'Запятая',
+				';': 'точка с запятой',
+			}
+			let advance = function () {
+				return c = input[i++]
+			}
+			let isKeySymbol = function (c) {
+				for (let key in keySymbols) {
+					if (c === key) {
+						if (key === '(') {
+							tokens[result] = [result, 'procedure']
+							tokens[key] = [key, keySymbols[key]]
+							result = ''
+							return true
+						} else if (key === ';') {
+							result = ''
+							return true
+						} else if (key === ',' || key === ')') {
+							if (patternIdent.test(result)) {
+								tokens[result] = [result, 'identifier']
+								tokens[key] = [key, keySymbols[key]]
+								result = ''
+								return true
+							} else if (patternSymbolConst.test(result)) {
+								tokens[result] = [result, 'десятичные числа с плавающей точкой']
+								tokens[key] = [key, keySymbols[key]]
+								result = ''
+								return true
+							} else if (patternSymCos.test(result)) {
+								tokens[result] = [result, 'Шеснадцатеричные числа']
+								tokens[key] = [key, keySymbols[key]]
+								result = ''
+								return true
+							} else if (patternStringConst.test(result)) {
+								tokens[result] = [result, 'Шеснадцатеричные числа']
+								tokens[key] = [key, keySymbols[key]]
+								result = ''
+								return true
+							}
+							//tokens[result] = [result, 'parametr']
+							//tokens[key] = [key, keySymbols[key]]
+
+						}
+					}
+				}
+			}
+			let addToken = function (type, value) { }
+			let isWhiteSpace = function (c) { return /\s/.test(c) }
+			let isProcedure = function (c) {
+				if (!isWhiteSpace(c) && c !== '(' && c !== ')' && c !== ',') {
+					result += c
+					return true
+				}
+			}
+			while (i < input.length) {
+				c = input[i]
+				if (isWhiteSpace(c)) {
+					advance()
+				} else if (isKeySymbol(c)) {
+					advance()
+				} else if (isProcedure(c)) {
+					advance()
+				}
+			}
+			return tokens
+		}
+
+		console.log(lex(code))
+	</script>
+</body>
+
+</html>
